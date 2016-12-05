@@ -15,7 +15,7 @@ buildscript {
 
     dependencies {
         // ...
-        classpath group:'com.vertabelo.gradle', name:'vertabelo', version:'1.0.0'
+        classpath group:'com.vertabelo.gradle', name:'vertabelo', version:'1.0.1'
     }
 }
 
