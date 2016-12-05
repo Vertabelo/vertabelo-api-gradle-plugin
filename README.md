@@ -1,4 +1,4 @@
-# vertabelo-download-gradle-plugin
+# vertabelo-api-gradle-plugin
 A gradle plugin to download xml and sql from Vertabelo
 
 ## How to
