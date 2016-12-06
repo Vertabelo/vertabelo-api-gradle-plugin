@@ -10,7 +10,7 @@ Add it to your buildscript dependencies:
 buildscript {
 
     repositories {
-        mavenCentral()
+        jcenter()
     }
 
     dependencies {
