@@ -11,6 +11,7 @@ buildscript {
 
     repositories {
         jcenter()
+        // also available on mavenCentral()
     }
 
     dependencies {
@@ -39,5 +40,13 @@ Parameters description:
 and apply it:
 
 ```groovy
-apply plugin: vertabelo
+apply plugin: 'vertabelo'
+```
+
+### Tasks:
+```
+gradle vertabeloSQL
+```
+```
+gradle vertabeloXML
 ```
