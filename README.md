@@ -53,3 +53,11 @@ gradle vertabeloSQL
 ```
 gradle vertabeloXML
 ```
+
+To download both:
+```groovy
+task updateVertabelo << {}
+
+updateVertabelo.dependsOn vertabeloSQL
+updateVertabelo.dependsOn vertabeloXML
+```
