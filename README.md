@@ -37,9 +37,12 @@ Parameters description:
 4. modelId = model's gid, more here: http://www.vertabelo.com/blog/documentation/vertabelo-api
 5. modelTag = model's tag, more here: http://www.vertabelo.com/blog/documentation/vertabelo-api
 
-and apply it:
+and apply it (after "plugins" section):
 
 ```groovy
+plugins {
+...
+}
 apply plugin: 'vertabelo'
 ```
 
